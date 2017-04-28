@@ -39,7 +39,7 @@ public class Hotel {
                     && pisos != null && !pisos.equalsIgnoreCase("")) {
 
                 bd.conectar();
-                s = bd.agregar(Integer.valueOf(idhotel), nombre, pisos);
+                s = bd.agregar(Integer.valueOf(idhotel), nombre, Integer.valueOf(pisos));
                 bd.desconectar();
 
             } else {

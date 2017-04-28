@@ -19,7 +19,7 @@ import java.util.Calendar;
  *
  * @author user
  */
-class Base_Datos_hotel {
+public class Base_Datos_hotel {
     public Datos_Basico_hotel obj;
     public Connection connection;
 
