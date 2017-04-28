@@ -43,7 +43,7 @@ public class Hotel {
                 bd.desconectar();
 
             } else {
-                response.sendRedirect("Proveedor.html");
+                response.sendRedirect("Hotel.html");
             }
             if (s == 1) {
                 response.sendRedirect("Home.html");
