@@ -20,7 +20,7 @@ import javax.servlet.http.HttpServletResponse;
  * @author David
  */
 public class Listar extends HttpServlet {
-//
+
 //    Base_Datos_Estudiantes bd = new Base_Datos_Estudiantes();
 //    Base_Datos_Proveedor bd2 = new Base_Datos_Proveedor();
 //
@@ -36,26 +36,26 @@ public class Listar extends HttpServlet {
 //    ArrayList<Datos_Basico_Habitacion> at4 = new ArrayList<>();
 //    ArrayList<Datos_Basico_Aseo> at5 = new ArrayList<>();
 ////    ArrayList<Datos_Basicos_AsigE> at6 = new ArrayList<>();
-
-    /**
-     * Processes requests for both HTTP <code>GET</code> and <code>POST</code>
-     * methods.
-     *
-     * @param request servlet request
-     * @param response servlet response
-     * @throws ServletException if a servlet-specific error occurs
-     * @throws IOException if an I/O error occurs
-     */
+//
+//    /**
+//     * Processes requests for both HTTP <code>GET</code> and <code>POST</code>
+//     * methods.
+//     *
+//     * @param request servlet request
+//     * @param response servlet response
+//     * @throws ServletException if a servlet-specific error occurs
+//     * @throws IOException if an I/O error occurs
+//     */
     protected void processRequest(HttpServletRequest request, HttpServletResponse response)
             throws ServletException, IOException {
-        response.setContentType("text/html;charset=UTF-8");
-        try (PrintWriter out = response.getWriter()) {
-            /* TODO output your page here. You may use following sample code. */
-
-            String boton = request.getParameter("Boton");
-            String combo = request.getParameter("selCombo");
-
-            if (boton.equals("Cargar")) {
+//        response.setContentType("text/html;charset=UTF-8");
+//        try (PrintWriter out = response.getWriter()) {
+//            /* TODO output your page here. You may use following sample code. */
+//
+//            String boton = request.getParameter("Boton");
+//            String combo = request.getParameter("selCombo");
+//
+//            if (boton.equals("Cargar")) {
 //                switch (combo) {
 //                    case "1.Proveedores":
 //                        at2.removeAll(at2);
@@ -539,8 +539,8 @@ public class Listar extends HttpServlet {
 //
 //                        break;
 //                }
-            }
-        }
+//            }
+//        }
     }
 
     // <editor-fold defaultstate="collapsed" desc="HttpServlet methods. Click on the + sign on the left to edit the code.">
